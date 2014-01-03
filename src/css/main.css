@@ -1,0 +1,77 @@
+body{
+	padding: 10px;
+	background: #272822;
+	width: 650px;
+	margin: 0 auto;
+}
+
+section#site{
+	margin: 20px 0;
+	background: #41413f;
+	box-shadow: 0px 0px 15px #888;
+	border: solid 1px #000;
+	border-radius: 0.3em;
+}
+
+nav{
+	padding: 10px;
+}
+
+nav a.link{
+	color: #fff;
+	float: right;
+}
+
+nav a, nav a:visited{
+	padding: 5px;
+	display: inline-block;
+	width: 80px;
+	border: dashed 2px rgba(255,255,255,.5);
+
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover{
+	border: dashed 2px rgba(255,255,255,.8);
+}
+
+article{
+	display: block;
+	text-align: center;
+}
+
+canvas{
+	background: #ffffff;
+	display: inline-block;
+}
+
+footer{ text-align: center; font-weight: bold; color: #fff; font-size: .9em;}
+footer p{margin: 0; padding-top: 2px; }
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
